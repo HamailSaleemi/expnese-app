@@ -1,0 +1,24 @@
+.summery-block {
+    background-color: white;
+    padding-block: 20px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vertical-line {
+    border-left: 2px solid #ccc;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.summery-amount{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
