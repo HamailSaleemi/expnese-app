@@ -8,8 +8,15 @@ export let transactionsSlice = createSlice({
     },
     reducers: {
         addTransaction(state, action){
-            console.log("Adding transaction", action.payload);
+            // console.log('server hit')
+            // console.log(action.payload)
+            // console.log("Adding transaction", action.payload);
             state.transactions.push(action.payload);
+            // console.log("Updated transactions", state.transactions);
         },
+        deleteTransaction(state, action){
+            // console.log("Deleting transaction", action.payload);
+            state.transactions.splice(action.payload, 1);
+        }
 }
 });
